@@ -1,0 +1,1156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif!important;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1200px;
+}
+.mobile_close_icon {
+    display: none;
+}   
+header.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: #000 !important;
+}
+.header-section {
+    background: transparent;
+    position: relative;
+    padding: 34px 0px;
+    z-index: 9;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.sub-menu {
+    display: flex;
+    align-items: center;
+}
+nav.nav-bar ul {
+    display: flex;
+    align-items: center;
+}
+nav.nav-bar ul li {
+    margin: 0 22px;
+}
+nav.nav-bar ul li a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+nav.nav-bar ul li.active a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+nav.nav-bar ul li:last-child {
+    margin-right: 0;
+}
+.Register.as.Salon a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px 12px;
+}
+.Register.as.Salon {
+    margin: 0 44px;
+}
+.button-login a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    justify-content: center;
+    padding: 11px 26px;
+}
+
+/*=========main---section----start*/
+.banner-image img {
+    width: 100%;
+    max-height: 820px;
+    object-fit: cover;
+}
+section.banner {
+    margin-top: -118px;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.Appointment-text .button {
+    margin-top: 20px;
+}
+section.Benefits.of.Mi.Salon h2.main--heading, .testimonials-section  h2.main--heading {
+    font-weight: 900;
+}
+.heading-text h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 60px;
+    color: #fff;
+    width: 100%;
+    max-width: 571px;
+    margin-bottom: 20px;
+}
+.heading-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 484px;
+}
+.social-media {
+    padding: 50px 0px 0;
+    display: flex;
+    grid-gap: 22px;
+}
+section.Online--Appointment .container {
+   max-width: 1211px;
+}
+section.Online--Appointment {
+    padding: 140px 0 150px;
+}
+.Appointment-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.main--heading {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 58px;
+    align-items: center;
+    color: #222222;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 28px;
+}
+.main--heading:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    max-width: 150px;
+    background: #000;
+    margin: 1px;
+    height: 5px;
+    bottom: 0;
+    border-radius: 3px;
+}
+.Appointment-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 177%;
+    color: #494949;
+    width: 100%;
+    max-width: 523px;
+    padding-bottom: 10px;
+}
+.Online-Appointment-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.Appointment-section.img--left {
+    flex-direction: row-reverse;
+    grid-gap: 40px;
+    padding-top: 140px;
+}
+.Appointment-text .button a:hover {
+    background: #000;
+}
+.button a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    height: 100%;
+    max-width: 181px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.Appointment-section.img--left p {
+    max-width: 523px;
+}
+.salon-img-content {  
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 70px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+section.about-section .Appointment-section.img--left {
+    padding: 0;
+}
+
+section.Benefits.of.Mi.Salon {
+    display: inline-block;
+    width: 100%;
+    margin: 140px 0 30px;
+}
+.salon-img-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 21px;
+}
+.salon-img-right .salon-img-right-box {
+    background: #DBFDEC;
+    padding: 40px 20px;
+    text-align: center;
+}
+.salon-img-right-box h2 {
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #222222;
+    margin: 22px 0px 20px;
+}
+.salon-img-right .salon-img-right-box:nth-child(2){
+background-color: #FFFCEC;
+top: 30px;
+    position: relative;
+}
+.salon-img-right .salon-img-right-box:nth-child(3){
+    background-color: #F9EEE5;
+}
+.salon-img-right .salon-img-right-box:last-child{
+    background-attachment: #FEF1FE;
+    top: 30px;
+    position: relative;
+}
+.salon-img-right-box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #494949;
+}
+img {
+    max-width: 100%;
+}
+
+.testimonial {
+    background-color: white;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+}
+  .testimonial .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #494949;
+  }
+  .testimonial span {
+    background: #C4C4C4;
+    padding: 12px 31px;
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+}
+.testimonial img {
+    margin-bottom: 30px;
+}
+div#testimonial-slider {
+    max-width: 1065px;
+    margin: 50px auto 0;
+}
+div#testimonial-slider .owl-controls {
+    margin-top: 40px;
+  }
+  
+  div#testimonial-slider .owl-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div#testimonial-slider .owl-controls span {
+    width: 10px;
+    height: 10px;
+    background: #C4C4C4;
+    display: inline-block;
+    border-radius: 50%;
+}
+div#testimonial-slider .owl-controls .owl-page {
+    margin: 0 5px;
+}
+div#testimonial-slider .owl-controls .owl-page.active span{
+  background-color: #59C5F3;
+}
+.home-contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 40px;
+}
+.home-contact-form-inner .salon--heading {
+    max-width: 280px;
+    width: 100%;
+}
+
+.salon--heading p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.502564px;
+    color: #494949;
+    mix-blend-mode: normal;
+    max-width: 262px; 
+}
+.home-contact-div input, .home-contact-div textarea {
+    padding: 15px 0;
+    border-width: 0  0 2px 0;
+    border-color: #ECECEC;
+    border-style: solid;
+    color: #444444;
+    font-weight: 300;
+    font-size: 16px; 
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
+}
+.home-contact-div textarea {
+    height: 100px;
+}
+.home-contact-div form {
+    margin: 0;
+} 
+.home-contact-div .input-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+section.home-contact-form {
+    margin-top: 140px;
+}
+section.home-contact-form {
+    margin: 150px 0 100px;
+}
+section#cont {
+    padding-top: 150px;
+    margin-top: 0 !important;
+}
+*{
+    outline: none;
+}
+.home-contact-form-inner .submit-button input {
+    margin: 0;
+    padding: 10px;
+}
+/*=========main---section----end*/
+footer.main-footer {
+    background: #494949;
+    display: inline-block;
+    width: 100%;
+    padding: 98px 0;
+}
+.main-footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+.footer-menu ul {
+    display: flex;
+    align-items: center;
+    grid-gap: 55px;
+    margin-bottom:0;
+}
+.footer-media ul {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    margin-bottom:0;
+}
+.footer-media ul a {
+    background: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.main-section {
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+.footer-menu ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.376923px;
+    color: #FFFFFF;
+}
+
+/*=========login-page---section----start*/
+.header-section {
+    background: #000;
+}
+body.home header.header-section {
+    background: transparent;
+}
+.logins--section {
+    display: flex;
+}
+.login-form {
+    width: 50%;
+}
+.login-img {
+    width: 50%;
+}
+.login-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.login-form h1 {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 138px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+}
+.login-form .form-group input {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+.login-form input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    border-color: #ECECEC;
+    font-size: 16px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    margin-bottom: 53px;
+    font-family: 'Mulish', sans-serif;
+}
+.login-form .form-group {
+    display: flex;
+    grid-gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 47px 0;
+}
+.checkbox-content {
+    display: flex;
+    grid-gap: 15px;
+	align-items: center;
+}
+.checkbox-content label {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    color: #444444;
+    grid-gap: 2px;
+    margin-bottom:0;
+}
+.forgot h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #59C5F3;
+}
+.submit-button input {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    max-width: 181px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.login-heading {
+    padding-bottom: 116px;
+}
+.login-form input#pass {
+    margin: 0;
+}
+/*=========login-page---section----end*/
+/*=========register-page---section----start*/
+.form--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.logins--section .login-form {
+    padding: 80px 65px 116px 68px;
+}
+.confirm--password input#pass {
+    margin-bottom: 53px;
+}
+.confirm--password input#con-pass {
+    margin: 0;
+}
+
+.checkbox-content label span {
+    color: #59c5f3;
+    font-weight: 500;
+}
+.logins--section button.btn.btn-primary {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    max-width: 181px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.register-success {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+.testimonials-section {
+    padding-top: 150px;
+}
+.heading-content {
+    padding: 20px 0;
+}
+.Appointment-text {
+    width: 50%;
+}
+.Online-Appointment-img {
+    width: 50%;
+}
+.Appointment-text h2 {
+    font-size: 34px !important;
+    line-height: 48px !important;
+}
+.app .Appointment-text {
+    width: 100% !important;
+}
+
+.compaire-main-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+.compaire-list {
+    background: linear-gradient(60deg, #59C5F3, #47474c);
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 45px 0;
+}
+.compaire-list-header {
+    padding: 10px;
+    border-bottom: 5px solid #fff;
+       text-align: center;
+}
+
+.compaire-list-header h2, .compaire-list-header h2.imp {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 800;
+    position: relative;
+}
+.compaire-list-header h2.imp:after {
+    content: "Most Popular";
+    position: absolute;
+    font-size: 16px;
+    width: 100%;
+    left: 0;
+    font-weight: 600;
+    right: 0;
+    bottom: 100%;
+}
+.compaire-list-header h3 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.compaire-list-header .price h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.compaire-list-items {
+    padding-top: 20px;
+}
+.compaire-list-items ul li {
+    color: #fff;
+    font-size: 16px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.compaire-list-items ul li i {
+    padding-right: 6px;
+}
+li.register-app_btn button {
+    background: #000;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+.m-top {
+    margin-top: 30px;
+}
+
+
+/*=========register-page---section----end*/
+/* media-start */
+
+}
+
+
+@media(max-width:1080px){
+.logins--section {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+.login-img {
+    width: 50%;
+}
+.login-form {
+    width: 50%;
+}
+.logins--section .login-form {
+    padding: 50px;
+}
+}
+@media(max-width:1200px){
+
+ .Appointment-section {
+  flex-direction: column-reverse;
+  grid-gap: 30px;
+   width: 100%;
+}
+.Appointment-text {
+    width: 100%;
+}
+.Appointment-text p {
+    max-width: 100%;
+}
+}
+
+
+
+@media(max-width:992px){
+/*============toggle-css-start============ */
+nav.nav-bar ul {
+    grid-gap: 25px;
+}
+section#cont {
+    padding-top: 120px;
+    margin-top: 0 !important;
+}
+span.icon-bar {
+    display: block;
+    background: white;
+    width: 28px;
+    height: 2px;
+    margin-bottom: 5px;
+    z-index: 99;
+}
+.mobile_close_icon {
+    position: absolute;
+    top: -1px;
+    left: 4px;
+}
+.navbar-toggle {
+    position: relative;
+}
+nav.nav-bar ul {
+    grid-gap: 25px;
+    display: none;
+}
+.navbar-toggle~ul.left {
+    transform: translateX(-100%);
+    width: 80%;
+    position: absolute;
+    background: #040404;
+    transition: all .48s cubic-bezier(.29, .63, .44, 1);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 0 none;
+    top: 0;
+    height: 100vh;
+    overflow-y: scroll !important;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 30px 30px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    align-items: flex-start;
+}
+.navbar-toggle.active~ul.left {
+    transform: translateX(0%);
+}
+.serch-icon {
+    display: none;
+}
+.mobile_close_icon {
+    display: block;
+    z-index: 9999;
+}
+.mobile_close_icon svg {
+    opacity: 0;
+    max-width: 24px;
+}
+.navbar-toggle.active svg {
+    opacity: 1;
+}
+.navbar-toggle.active span.icon-bar {
+    opacity: 0;
+}
+.Register.as.Salon {
+    margin: 0 44px;
+    margin: 0;
+}
+body.menuopen {
+    overflow: hidden;
+}
+.navbar-toggle.active svg path {
+    fill: #fff;
+}
+nav.nav-bar ul li {
+    margin: 0 0;
+}
+
+
+/*============toggle-css-end============ */
+
+    .heading-text h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    section.Online--Appointment {
+        padding: 120px 0;
+    }
+    section.Benefits.of.Mi.Salon {
+    margin: 120px 0 0px;
+}
+    section.home-contact-form {
+        margin: 120px 0 100px;
+    }
+    footer.main-footer {
+        padding: 70px 0;
+    }
+    .banner-image img {
+    min-height: 700px;
+}
+.Appointment-section {
+  flex-direction: column-reverse;
+  grid-gap: 30px;
+}
+.Appointment-text {
+    width: 100%;
+}
+.Appointment-text p {
+    max-width: 100%;
+}
+.form--section {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+}
+.login-form h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+.login-form input {
+    margin-bottom: 20px;
+}
+.logins--section .login-form {
+    padding: 30px;
+}
+.login-heading {
+    padding-bottom: 35px;
+}
+.app .Online-Appointment-img {
+    width: 100%;
+    max-width: 400px;
+}
+}
+@media(max-width:749px){
+    section#cont {
+    padding-top: 70px;
+    margin-top: 0 !important;
+}
+
+.compaire-list-header h2, .compaire-list-header h2.imp {
+    font-size: 26px;
+}
+.compaire-main-block {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    max-width: 400px;
+    margin: 40px auto;
+}
+    .heading-text h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header-section {
+        padding: 10px 0px;
+    }
+    .heading-text p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 362px;
+    }
+    section.Online--Appointment {
+        padding: 50px 0;
+    }
+    .main--heading:before {
+        max-width: 100%;
+    }
+    .main--heading {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .main--heading br {
+        display: none;
+    }
+    .Appointment-section {
+        flex-direction: column-reverse;
+        grid-gap: 30px;
+    }
+   .Appointment-text p {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 100%;
+}
+    .Appointment-text .button {
+        margin-top: 10px;
+    }
+    .button a {
+        font-size: 16px;
+        min-height: 40px;
+    }
+    .Appointment-section.img--left {
+        flex-direction: column-reverse;
+        grid-gap: 30px;
+    }
+    .main--heading {
+        display: inline-block;
+        margin-bottom: 16px;
+        padding-bottom: 4px;
+    }
+    .salon-img-content {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        grid-gap: 30px;
+    }
+    section.Benefits.of.Mi.Salon {
+    margin: 40px 0 0px;
+}
+    div#testimonial-slider {
+        margin: 0px auto 0;
+    }
+    .salon-img-right .salon-img-right-box {
+        padding: 20px 20px;
+    }
+    .salon-img-right-box h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 15px 0px 8px;
+    }
+    .testimonial img {
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    .testimonial .description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .testimonial span {
+        margin-top: 16px;
+    }
+
+    section.home-contact-form {
+        margin: 30px 0 50px;
+    }
+    .home-contact-form-inner {
+        grid-template-columns: 1fr;
+        grid-gap: 14px;
+    }
+    .salon--heading p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+    .home-contact-form-inner .salon--heading {
+        max-width: 100%;
+        width: 100%;
+    }
+    .home-contact-div .input-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    .home-contact-div textarea {
+        height: 60px;
+    }
+    .home-contact-div input, .home-contact-div textarea {
+        margin-bottom: 18px;
+    }
+    footer.main-footer {
+        padding: 50px 0;
+    }
+    .main-footer-inner {
+        flex-direction: column;
+    }
+    .footer-menu ul {
+        grid-gap: 30px;
+    }
+    .footer-logo svg {
+        max-width: 150px;
+    }
+    .submit-button input {
+        font-size: 15px;
+        line-height: 18px;
+        min-height: 42px;
+    }
+    .logins--section {
+    flex-direction: column;
+}
+
+    .logins--section .login-form {
+        padding: 50px 15px 50px 15px;
+    }
+    .login-heading {
+        padding-bottom: 20px;
+    }
+    .login-form h1 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .login-heading {
+        padding-bottom: 10px;
+    }
+
+    .login-form input {
+        margin-bottom: 18px;
+    }
+    .login-form .form-group {
+        grid-gap: 0;
+        padding: 20px 0 10px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .submit-button input {
+    margin: 0;
+    max-width: 100%;
+}
+    .login-form .form-group input {
+        width: 16px;
+        height: 16px;
+    }
+    .checkbox-content {
+        grid-gap: 8px;
+    }
+    .form--section {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .confirm--password input#pass {
+        margin-bottom: 18px;
+    }
+    .social-media {
+        padding: 20px 0px 0;
+        grid-gap: 16px;
+    }
+    .banner-image img {
+        min-height: 500px;
+        height: 100%;
+    }
+
+    .social-media img {
+        max-width: 140px;
+    }
+
+    .salon-img-right-box p {
+
+        font-size: 14px;
+        line-height: 18px;
+
+    }
+    .login-img img {
+        max-height: 300px;
+    }
+
+    .Online-Appointment-img img {
+        max-width: 100%;
+    }
+  .about-section .Online-Appointment-img img {
+        max-width: inherit;
+    }
+    .main--heading:before {
+        height: 2px;
+  
+    }
+    .salon-img-right {
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .salon-img-right .salon-img-right-box:last-child {
+        top: 0;
+
+    }
+    .salon-img-right .salon-img-right-box:nth-child(2) {
+        top: 0;
+    }
+    .testimonials-section {
+    padding-top: 40px;
+}
+.testimonial {
+padding: 0px;
+  
+}
+.Online-Appointment-img {
+    width: 100%;
+    text-align: center;
+}
+.Appointment-text {
+    width: 100%;
+}
+.banner-image img {
+    min-height: 500px;
+}
+.Appointment-text h2 {
+    font-size: 19px !important;
+    line-height: 30px !important;
+}
+.login-img {
+    width: 100%;
+}
+.login-form {
+    width: 100%;
+}
+.logins--section button.btn.btn-primary {
+    max-width: 100%;
+}
+.Appointment-section.img--left p {
+    max-width: 100%;
+}
+}
+
+@media(max-width:480px){
+    .main--heading {
+        font-size: 19px;
+        line-height: 22px;
+        margin-bottom: 8px;
+    }
+    .heading-text h1 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+    .banner-image img {
+        max-height: 440px;
+    }
+    .salon-img-right {
+        grid-gap: 16px;
+    }
+    .Appointment-text p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .Appointment-text .button {
+        margin-top: 0;
+    }
+    .social-media {
+        flex-direction: column;
+    }
+}
+
+/* media-end */

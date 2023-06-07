@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Mintsy';
+    src: url('MintsyRegular.woff2') format('woff2'),
+        url('MintsyRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

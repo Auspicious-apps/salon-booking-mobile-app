@@ -1,0 +1,526 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1200px;
+}
+.header-section {
+    background: transparent;
+    position: relative;
+    padding: 34px 0px;
+    z-index: 9;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.sub-menu {
+    display: flex;
+    align-items: center;
+}
+nav.nav-bar ul {
+    display: flex;
+    align-items: center;
+}
+nav.nav-bar ul li {
+    margin: 0 22px;
+}
+nav.nav-bar ul li a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+nav.nav-bar ul li.active a {
+    text-decoration: underline;
+    font-weight: 700;
+}
+nav.nav-bar ul li:last-child {
+    margin-right: 0;
+}
+.Register.as.Salon a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px 12px;
+}
+.Register.as.Salon {
+    margin: 0 44px;
+}
+.button-login a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    justify-content: center;
+    padding: 11px 26px;
+}
+/*=========main---section----start*/
+.banner-image img {
+    width: 100%;
+    max-height: 820px;
+    object-fit: cover;
+}
+section.banner {
+    margin-top: -118px;
+    position: relative;
+}
+.banner-content {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    transform: translate(0, -50%);
+}
+.Appointment-text .button {
+    margin-top: 20px;
+}
+section.Benefits.of.Mi.Salon h2.main--heading, .testimonials-section  h2.main--heading {
+    font-weight: 900;
+}
+.heading-text h1 { 
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 100px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 571px;
+    margin-bottom: 20px;
+}
+.heading-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 100%;
+    max-width: 484px;
+}
+.social-media {
+    padding: 50px 0px 0;
+    display: flex;
+    grid-gap: 22px;
+}
+section.Online--Appointment .container {
+    max-width: 1065px;
+}
+section.Online--Appointment {
+    padding: 140px 0 150px;
+}
+.Appointment-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.main--heading {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 58px;
+    align-items: center;
+    color: #222222;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 28px;
+}
+.main--heading:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    max-width: 150px;
+    background: #000;
+    margin: 1px;
+    height: 5px;
+    bottom: 0;
+    border-radius: 3px;
+}
+.Appointment-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 177%;
+    color: #494949;
+    width: 100%;
+    max-width: 523px;
+    padding-bottom: 10px;
+}
+.Online-Appointment-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.Appointment-section.img--left {
+    flex-direction: row-reverse;
+    grid-gap: 40px;
+    padding-top: 140px;
+}
+
+.button a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    height: 100%;
+    max-width: 181px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Appointment-section.img--left p {
+    max-width: 523px;
+}
+.salon-img-content {  
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 70px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+section.about-section .Appointment-section.img--left {
+    padding: 0;
+}
+
+section.Benefits.of.Mi.Salon {
+    display: inline-block;
+    width: 100%;
+    margin: 140px 0 180px;
+}
+.salon-img-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 21px;
+}
+.salon-img-right .salon-img-right-box {
+    background: #DBFDEC;
+    padding: 40px 20px;
+    text-align: center;
+}
+.salon-img-right-box h2 {
+    font-style: normal; 
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #222222;
+    margin: 22px 0px 20px;
+}
+.salon-img-right .salon-img-right-box:nth-child(2){
+background-color: #FFFCEC;
+top: 30px;
+    position: relative;
+}
+.salon-img-right .salon-img-right-box:nth-child(3){
+    background-color: #F9EEE5;
+}
+.salon-img-right .salon-img-right-box:last-child{
+    background-attachment: #FEF1FE;
+    top: 30px;
+    position: relative;
+}
+.salon-img-right-box p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #494949;
+}
+img {
+    max-width: 100%;
+}
+
+.testimonial {
+    background-color: white;
+    text-align: center;
+    padding: 0 15px;
+    position: relative;
+}
+  .testimonial .description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #494949;
+  }
+  .testimonial span {
+    background: #C4C4C4;
+    padding: 12px 31px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.testimonial img {
+    margin-bottom: 30px;
+}
+div#testimonial-slider {
+    max-width: 1065px;
+    margin: 50px auto 0;
+}
+div#testimonial-slider .owl-controls {
+    margin-top: 40px;
+  }
+  
+  div#testimonial-slider .owl-pagination {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div#testimonial-slider .owl-controls.clickable span {
+    width: 10px;
+    height: 10px;
+    background: #C4C4C4;
+    display: inline-block;
+    border-radius: 50%;
+}
+div#testimonial-slider .owl-controls.clickable .owl-page {
+    margin: 0 5px;
+}
+div#testimonial-slider .owl-controls.clickable .owl-page.active span{
+  background-color: #59C5F3;
+}
+.home-contact-form-inner {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 40px;
+}
+.salon--heading {
+    max-width: 300px;
+    width: 100%;
+}
+.salon--heading h2.main--heading {
+    font-size: 50px;
+    font-weight: 900;
+}
+.salon--heading p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.502564px;
+    color: #494949;
+    mix-blend-mode: normal;
+    max-width: 262px; 
+}
+.home-contact-div input, .home-contact-div textarea {
+    padding: 15px 0;
+    border-width: 0  0 2px 0;
+    border-color: #ECECEC;
+    border-style: solid;
+    color: #444444;
+    font-weight: 300;
+    font-size: 16px; 
+    width: 100%;
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 30px;
+}
+.home-contact-div textarea {
+    height: 100px;
+}
+.home-contact-div form {
+    margin: 0;
+} 
+.home-contact-div .input-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+.submit-button input[type="submit"] {
+    max-width: 180;
+    height: 50px;
+    left: 630px;
+    top: 4950px;
+    background: #59C5F3;
+    border-radius: 3px;
+    border: none;
+    letter-spacing: -0.019em;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+}
+section.home-contact-form {
+    margin-top: 140px;
+}
+section.home-contact-form {
+    margin: 150px 0 100px;
+}
+*{
+    outline: none;
+}
+/*=========main---section----end*/
+footer.main-footer {
+    background: #494949;
+    display: inline-block;
+    width: 100%;
+    padding: 98px 0;
+}
+.main-footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 30px;
+}
+.footer-menu ul {
+    display: flex;
+    align-items: center;
+    grid-gap: 55px;
+}
+.footer-media ul {
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+}
+.footer-media ul a {
+    background: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main.main-section {
+    background-image: url(images/bg-image.png);
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+}
+.footer-menu ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: -0.376923px;
+    color: #FFFFFF;
+}
+
+/*=========login-page---section----start*/
+.header-section {
+    background: #000;
+}
+body.home header.header-section {
+    background: transparent;
+}
+.logins--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.login-img img {
+    width: 100%;
+}
+.login-form h1 {
+    font-weight: 900;
+    font-size: 110px;
+    line-height: 138px;
+    display: flex;
+    align-items: center;
+    color: #222222;
+}
+.login-form {
+    padding: 80px 124px 116px 65px;
+}
+.login-form .form-group input {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    cursor: pointer;
+}
+.login-form input {
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    width: 100%;
+    border-color: #ECECEC;
+    font-size: 16px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    margin-bottom: 56px;
+}
+.login-form .form-group {
+    display: flex;
+    grid-gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 47px 0;
+}
+.checkbox-content {
+    display: flex;
+    grid-gap: 30px;
+	align-items: center;
+}
+.checkbox-content label {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    color: #444444;
+}
+.forgot h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #59C5F3;
+}
+.submit-button input {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #59C5F3;
+    border-radius: 3px;
+    max-width: 181px;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    margin: 0 auto;
+}
+.login-heading {
+    padding-bottom: 116px;
+}
+.login-form input#pass {
+    margin: 0;
+}
+/*=========login-page---section----end*/
